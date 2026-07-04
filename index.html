@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website of Galib Hasan Alvee, CSE graduate and junior software engineer." />
+  <title>Galib Hasan Alvee | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>
+    const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="site-orb orb-one" aria-hidden="true"></div>
+  <div class="site-orb orb-two" aria-hidden="true"></div>
+  <div id="particles" class="particles" aria-hidden="true"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="logo" href="#home" aria-label="Go to home">GH</a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+      </button>
+      <a class="btn btn-small" href="#contact">Contact Me</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> CSE Graduate · Junior Software Engineer</div>
+          <h1>Crafting <span>digital</span> experiences with <em>precision.</em></h1>
+          <p>Hi, I'm Galib Hasan Alvee — a Computer Science and Engineering graduate focused on TypeScript, web applications, RESTful APIs, authentication, and clean backend development.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Contact Me <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="public/assets/resume.pdf" target="_blank" rel="noreferrer">Download CV <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="social-row" id="socialRow" aria-label="Social links"></div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="profile-card">
+            <img src="public/assets/profile.png" alt="Professional portrait of Galib Hasan Alvee" />
+            <div class="availability"><span></span> Available for work</div>
+          </div>
+        </div>
+      </div>
+      <div class="container tech-strip reveal delay-2">
+        <p>Technologies I work with</p>
+        <div id="techMarquee" class="tech-marquee"></div>
+      </div>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section">SCROLL <span>⌄</span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container split-grid">
+        <div class="section-copy reveal">
+          <p class="section-kicker">ABOUT ME</p>
+          <h2>Building the future, <em>one component at a time.</em></h2>
+          <div class="about-text" id="aboutText"></div>
+          <blockquote id="missionQuote"></blockquote>
+        </div>
+        <div class="value-grid reveal delay-1" id="valueGrid"></div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">SELECTED WORK</p>
+          <h2>Projects built with <em>purpose.</em></h2>
+          <p>A selection of recent work, from complex web applications to innovative tools that solve real-world problems.</p>
+        </div>
+        <div class="project-toolbar reveal delay-1">
+          <label for="sortProjects">Sort by:</label>
+          <select id="sortProjects" aria-label="Sort projects">
+            <option value="rank">Rank</option>
+            <option value="name">Name</option>
+            <option value="stack">Stack Count</option>
+          </select>
+          <div class="view-switch" role="group" aria-label="Project layout">
+            <button class="active" data-view="grid">Grid</button>
+            <button data-view="list">List</button>
+          </div>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-copy narrow reveal">
+          <p class="section-kicker">CAREER JOURNEY</p>
+          <h2>Experience that <em>speaks volumes.</em></h2>
+          <p>A focused timeline of my software development internship and practical learning journey.</p>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">SKILL STACK</p>
+          <h2>Skills shaped for <em>real projects.</em></h2>
+          <p>Grouped by frontend, backend, and tools, with graphical progress indicators so visitors can quickly understand your strengths.</p>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+
+    <section class="section education" id="education">
+      <div class="container split-grid reverse-on-mobile">
+        <div class="education-cards reveal" id="educationCards"></div>
+        <div class="section-copy reveal delay-1">
+          <p class="section-kicker">EDUCATION</p>
+          <h2>Academic foundation for <em>software thinking.</em></h2>
+          <p>My academic background combines formal Computer Science and Engineering study with a strong science foundation from college.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">GET IN TOUCH</p>
+          <h2>Let's build <em>something great.</em></h2>
+          <p>Have a project in mind? Send a message and let's discuss how we can work together.</p>
+        </div>
+        <div class="contact-grid">
+          <form class="contact-form reveal" id="contactForm">
+            <label class="form-field">
+              <span class="field-label">Name</span>
+              <span class="input-shell"><input type="text" id="nameInput" placeholder="Your name" required /></span>
+            </label>
+            <label class="form-field">
+              <span class="field-label">Email</span>
+              <span class="input-shell email-shell"><input type="email" id="emailInput" placeholder="your@email.com" required /><span class="input-icon" aria-hidden="true">@</span></span>
+            </label>
+            <label class="form-field">
+              <span class="field-label">Message</span>
+              <span class="input-shell"><textarea id="messageInput" placeholder="Tell me about your project" required></textarea></span>
+            </label>
+            <button class="btn" type="submit">Send Message <span aria-hidden="true">✈</span></button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+          <aside class="contact-side reveal delay-1">
+            <div class="contact-card">
+              <h3>Contact Information</h3>
+              <div id="contactInfo"></div>
+            </div>
+            <div class="available-card">
+              <h3><span></span> Currently Available</h3>
+              <p>I'm currently open to new opportunities and exciting projects. Whether you need a full-time engineer or a freelance consultant, let's talk!</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">GH</a>
+      <p>© 2026 Galib Hasan Alvee.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

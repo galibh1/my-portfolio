@@ -1,0 +1,18 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" x2="1280" y1="0" y2="720"><stop stop-color="#061023"/><stop offset="1" stop-color="#0b1720"/></linearGradient><linearGradient id="teal" x1="0" x2="1"><stop stop-color="#2ed9cf"/><stop offset="1" stop-color="#4a61ff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="14" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter></defs>
+  <rect width="1280" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="215" cy="170" r="250" fill="#2ed9cf" opacity=".08" filter="url(#glow)"/>
+  <rect x="706" y="120" width="470" height="462" rx="24" fill="#1a2637" stroke="#425069"/>
+  <rect x="706" y="120" width="470" height="52" rx="24" fill="#263246"/>
+  <circle cx="739" cy="146" r="8" fill="#ef5f5f"/><circle cx="765" cy="146" r="8" fill="#f2bd4d"/><circle cx="791" cy="146" r="8" fill="#31d182"/>
+  <text x="826" y="153" font-family="Inter,Arial" font-size="15" font-weight="900" fill="#dce7f0">CodeFlow AI</text>
+  <rect x="740" y="194" width="118" height="40" rx="8" fill="#2b65b8"/><text x="768" y="220" font-family="Inter,Arial" font-size="14" font-weight="900" fill="#fff">App.jsx</text>
+  <rect x="872" y="194" width="118" height="40" rx="8" fill="#263246"/><text x="900" y="220" font-family="Inter,Arial" font-size="14" font-weight="900" fill="#b5c4cf">Hero.jsx</text>
+  <rect x="1004" y="194" width="118" height="40" rx="8" fill="#263246"/><text x="1026" y="220" font-family="Inter,Arial" font-size="14" font-weight="900" fill="#b5c4cf">Navbar.jsx</text>
+  <g font-family="JetBrains Mono,Consolas,monospace" font-size="18" font-weight="700"><text x="744" y="280" fill="#ffce7a">import</text><text x="812" y="280" fill="#dce7f0"> &#123; useState &#125; </text><text x="940" y="280" fill="#ffce7a">from</text><text x="994" y="280" fill="#7ee3d7"> 'react'</text><text x="744" y="322" fill="#ffce7a">export</text><text x="818" y="322" fill="#ffce7a"> default</text><text x="906" y="322" fill="#7ee3d7"> function App() &#123;</text><text x="774" y="364" fill="#8998a7">// AI generated component</text><text x="774" y="406" fill="#dce7f0">return &lt;Dashboard /&gt;</text><text x="744" y="448" fill="#7ee3d7">&#125;</text></g>
+  <text x="108" y="226" font-family="Inter,Arial" font-size="64" font-weight="900" fill="#eef7f7">Code Faster</text>
+  <text x="108" y="300" font-family="Inter,Arial" font-size="64" font-weight="900" fill="#2ed9cf">Build Better</text>
+  <text x="108" y="374" font-family="Inter,Arial" font-size="64" font-weight="900" fill="#eef7f7">With CodeFlow AI</text>
+  <rect x="108" y="432" width="246" height="58" rx="29" fill="url(#teal)"/><text x="152" y="469" font-family="Inter,Arial" font-size="18" font-weight="900" fill="#061023">Start Building</text>
+  <rect x="382" y="432" width="172" height="58" rx="29" fill="#132032" stroke="#2d3d54"/><text x="424" y="469" font-family="Inter,Arial" font-size="18" font-weight="900" fill="#dce7f0">View Demo</text>
+</svg>

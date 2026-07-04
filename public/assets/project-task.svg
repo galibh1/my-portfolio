@@ -1,0 +1,26 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" x2="1280" y1="0" y2="720"><stop stop-color="#071014"/><stop offset="1" stop-color="#10272b"/></linearGradient><linearGradient id="teal" x1="0" x2="1"><stop stop-color="#2ed9cf"/><stop offset="1" stop-color="#74f2a6"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="14" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter></defs>
+  <rect width="1280" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="920" cy="156" r="230" fill="#2ed9cf" opacity=".1" filter="url(#glow)"/>
+  <text x="86" y="128" font-family="Inter,Arial" font-size="44" font-weight="900" fill="#eef7f7">Task Horizon</text>
+  <text x="86" y="174" font-family="Inter,Arial" font-size="18" font-weight="700" fill="#9aa9ad">Collaborative boards, reminders and team analytics.</text>
+  <g transform="translate(84 224)">
+    <rect width="330" height="410" rx="24" fill="#111f26" stroke="#28434b"/>
+    <text x="26" y="50" font-family="Inter,Arial" font-size="22" font-weight="900" fill="#2ed9cf">Backlog</text>
+    <rect x="26" y="86" width="278" height="84" rx="16" fill="#172a32"/><text x="48" y="120" font-family="Inter,Arial" font-size="16" font-weight="900" fill="#eef7f7">Design landing page</text><rect x="48" y="136" width="76" height="20" rx="10" fill="#2ed9cf" opacity=".28"/>
+    <rect x="26" y="194" width="278" height="84" rx="16" fill="#172a32"/><text x="48" y="228" font-family="Inter,Arial" font-size="16" font-weight="900" fill="#eef7f7">Write API contract</text><rect x="48" y="244" width="96" height="20" rx="10" fill="#74f2a6" opacity=".25"/>
+    <rect x="26" y="302" width="278" height="84" rx="16" fill="#172a32"/><text x="48" y="336" font-family="Inter,Arial" font-size="16" font-weight="900" fill="#eef7f7">Add auth screens</text><rect x="48" y="352" width="86" height="20" rx="10" fill="#ffcc66" opacity=".28"/>
+  </g>
+  <g transform="translate(474 224)">
+    <rect width="330" height="410" rx="24" fill="#111f26" stroke="#28434b"/>
+    <text x="26" y="50" font-family="Inter,Arial" font-size="22" font-weight="900" fill="#2ed9cf">In Progress</text>
+    <rect x="26" y="86" width="278" height="110" rx="16" fill="#172a32" stroke="#2ed9cf" stroke-opacity=".25"/><text x="48" y="120" font-family="Inter,Arial" font-size="16" font-weight="900" fill="#eef7f7">Build dashboard</text><text x="48" y="150" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#9aa9ad">3 comments · due Friday</text><rect x="48" y="166" width="140" height="10" rx="5" fill="url(#teal)"/>
+    <rect x="26" y="222" width="278" height="84" rx="16" fill="#172a32"/><text x="48" y="256" font-family="Inter,Arial" font-size="16" font-weight="900" fill="#eef7f7">Realtime sync</text><rect x="48" y="272" width="116" height="20" rx="10" fill="#2ed9cf" opacity=".28"/>
+  </g>
+  <g transform="translate(864 224)">
+    <rect width="330" height="410" rx="24" fill="#111f26" stroke="#28434b"/>
+    <text x="26" y="50" font-family="Inter,Arial" font-size="22" font-weight="900" fill="#2ed9cf">Done</text>
+    <rect x="26" y="86" width="278" height="84" rx="16" fill="#172a32"/><text x="48" y="120" font-family="Inter,Arial" font-size="16" font-weight="900" fill="#eef7f7">Project setup</text><path d="M258 116l15 15 32-38" stroke="#74f2a6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="26" y="194" width="278" height="84" rx="16" fill="#172a32"/><text x="48" y="228" font-family="Inter,Arial" font-size="16" font-weight="900" fill="#eef7f7">Design system</text><path d="M258 224l15 15 32-38" stroke="#74f2a6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
