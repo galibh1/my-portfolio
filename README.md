@@ -1,6 +1,6 @@
 # Galib Hasan Alvee — Personal Portfolio
 
-A responsive personal portfolio website for **Galib Hasan Alvee**, a **CSE Graduate** and **Junior Software Engineer**. The portfolio is built with clean **HTML, CSS, and JavaScript** and includes all major sections required for a professional developer portfolio.
+A responsive personal portfolio website of **Galib Hasan Alvee**, a **CSE Graduate** and **Junior Software Engineer**. The portfolio is built with clean **HTML, CSS, and JavaScript** and includes all major sections required for a professional developer portfolio.
 
 ## Live Demo
 

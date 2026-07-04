@@ -37,25 +37,25 @@ const PORTFOLIO_DATA = {
   },
   skills: {
     Frontend: [
-      { name: "HTML", level: 86 },
-      { name: "CSS", level: 82 },
-      { name: "JavaScript", level: 80 },
-      { name: "TypeScript", level: 78 },
-      { name: "React", level: 74 }
+      { name: "HTML", level: 96 },
+      { name: "CSS", level: 92 },
+      { name: "JavaScript", level: 90 },
+      { name: "TypeScript", level: 91 },
+      { name: "React", level: 95 }
     ],
     Backend: [
-      { name: "Node.js", level: 72 },
-      { name: "Express.js", level: 70 },
-      { name: "RESTful APIs", level: 76 },
-      { name: "MVC Architecture", level: 72 },
-      { name: "MySQL", level: 74 }
+      { name: "Node.js", level: 92 },
+      { name: "Express.js", level: 90 },
+      { name: "RESTful APIs", level: 96 },
+      { name: "MVC Architecture", level: 92 },
+      { name: "MySQL", level: 84 }
     ],
     Tools: [
-      { name: "Git & GitHub", level: 80 },
-      { name: "VS Code", level: 86 },
-      { name: "Postman", level: 78 },
-      { name: "Authentication", level: 72 },
-      { name: "Database Management", level: 74 }
+      { name: "Git & GitHub", level: 90 },
+      { name: "VS Code", level: 96 },
+      { name: "Postman", level: 88 },
+      { name: "Authentication", level: 92 },
+      { name: "Database Management", level: 94 }
     ]
   },
   education: [
