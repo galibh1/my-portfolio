@@ -101,6 +101,11 @@ function initReveal() {
 }
 
 function renderHero() {
+  const resumeButton = $('#resumeButton');
+  if (resumeButton) {
+    resumeButton.href = PORTFOLIO_DATA.profile.resume;
+  }
+
   $('#socialRow').innerHTML = `<span>Follow me:</span>` + PORTFOLIO_DATA.profile.socials.map((item) => `
     <a href="${item.url}" target="_blank" rel="noreferrer" aria-label="${item.label}">${iconSVG(item.icon)}</a>
   `).join('');

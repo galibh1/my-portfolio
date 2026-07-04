@@ -3,7 +3,7 @@ const PORTFOLIO_DATA = {
     name: "Galib Hasan Alvee",
     logo: "GH",
     role: "CSE Graduate · Junior Software Engineer",
-    designation: "Software Developer",
+    designation: "Junior Software Engineer",
     headline: "Crafting digital experiences with precision.",
     intro: "Hi, I'm Galib Hasan Alvee — a Computer Science and Engineering graduate focused on TypeScript, web applications, RESTful APIs, authentication, and clean backend development.",
     email: "galibh233@gmail.com",
@@ -25,7 +25,7 @@ const PORTFOLIO_DATA = {
     paragraphs: [
       "I'm Galib Hasan Alvee, a Computer Science and Engineering graduate from American International University-Bangladesh. My programming journey started with curiosity about how web applications work, and that curiosity has grown into a strong interest in building practical software solutions.",
       "I enjoy working with TypeScript, RESTful APIs, MVC architecture, user authentication, and database-driven applications. I like projects where clean structure, simple user experience, and maintainable code come together.",
-      "Outside programming, I enjoy learning new technologies, improving my problem-solving skills, exploring design ideas, and working on self-initiated projects that help me grow as a developer."
+      "Outside programming, I enjoy sports, exploring clean design ideas, and working on self-initiated projects that help me grow as a developer and as a problem solver."
     ],
     quote: "My goal is to build reliable web applications with clean code, clear structure, and a user-focused experience.",
     values: [

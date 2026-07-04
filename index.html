@@ -50,7 +50,7 @@
           <p>Hi, I'm Galib Hasan Alvee — a Computer Science and Engineering graduate focused on TypeScript, web applications, RESTful APIs, authentication, and clean backend development.</p>
           <div class="hero-actions">
             <a class="btn" href="#contact">Contact Me <span aria-hidden="true">→</span></a>
-            <a class="btn btn-ghost" href="public/assets/resume.pdf" target="_blank" rel="noreferrer">Download CV <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-ghost" id="resumeButton" href="public/assets/resume.pdf" target="_blank" rel="noreferrer" aria-label="Open resume in a new tab to view or download">View / Download CV <span aria-hidden="true">↗</span></a>
           </div>
           <div class="social-row" id="socialRow" aria-label="Social links"></div>
         </div>
@@ -151,15 +151,15 @@
           <form class="contact-form reveal" id="contactForm">
             <label class="form-field">
               <span class="field-label">Name</span>
-              <span class="input-shell"><input type="text" id="nameInput" placeholder="Your name" required /></span>
+              <span class="input-shell"><input type="text" id="nameInput" name="from_name" placeholder="Your name" required /></span>
             </label>
             <label class="form-field">
               <span class="field-label">Email</span>
-              <span class="input-shell email-shell"><input type="email" id="emailInput" placeholder="your@email.com" required /><span class="input-icon" aria-hidden="true">@</span></span>
+              <span class="input-shell email-shell"><input type="email" id="emailInput" name="from_email" placeholder="your@email.com" required /><span class="input-icon" aria-hidden="true">@</span></span>
             </label>
             <label class="form-field">
               <span class="field-label">Message</span>
-              <span class="input-shell"><textarea id="messageInput" placeholder="Tell me about your project" required></textarea></span>
+              <span class="input-shell"><textarea id="messageInput" name="message" placeholder="Tell me about your project" required></textarea></span>
             </label>
             <button class="btn" type="submit">Send Message <span aria-hidden="true">✈</span></button>
             <p class="form-status" id="formStatus" role="status"></p>
